@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Log In</h1>
+        <fieldset style="width: 400px;">
+            <legend>Personal Information</legend>
+     <form>
+         <label for="username">Username: </label>
+      <input type="text" id="username" required
+      placeholder="Enter first name"
+      title="Enter name">
+<br><br>
+         <label for="email">Email: </label>
+      <input type="email" id="email"
+      placeholder="Enter email">
+<br><br>
+         <label for="pass">Password: </label>
+      <input type="password" id="pass"
+      placeholder="Enter password">
+<br><br>
+      <label>Age:</label>
+      <input type="number"
+      placeholder="Enter age" max="25" min="18">
+<br><br>
+      <label>DOB:</label>
+      <input type="date">
+<br><br>
+      <label>Insta Link</label>
+      <input type="url">
+<br><br>
+      <label>Resume</label>
+      <input type="file" accept=".pdf">
+<br><br>
+      <label>Skills:</label>
+      <input type="checkbox">Java
+      <input type="checkbox">Python
+      <input type="checkbox">Sql
+      <input type="checkbox">ReactJS
+<br><br>
+      <label>Gender:</label>
+      <input type="radio" name="gender">Male
+      <input type="radio" name="gender">Female
+      <input type="radio" name="gender">Other
+<br><br>
+      <label>Select City</label>
+      <select>
+        <option>City:</option>
+        <option>Pune</option>
+        <option>Nagpur</option>
+        <option>Mumbai</option>
+        <option>Benglore</option>
+      </select>
+<br><br>
+      <textarea>Write your feedback here</textarea>
+<br><br>
+      <input type="range"> <br>
+      <button>Submit</button>
+      <input type="reset">
+     </form>
+     </fieldset>
+    </body>
+</html>
